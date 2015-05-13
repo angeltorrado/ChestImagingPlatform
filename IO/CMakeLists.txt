@@ -6,7 +6,7 @@ IF(NOT BUILD_COMMON)
   MESSAGE ( FATAL_ERROR "Must build Common to build IO" )
 ENDIF(NOT BUILD_COMMON)
 
-find_package(LibXml2 REQUIRED)
+#find_package(LibXml2 REQUIRED)
 
 INCLUDE_DIRECTORIES( ${CMAKE_SOURCE_DIR}/Common ${LIBXML2_INCLUDE_DIR})
 

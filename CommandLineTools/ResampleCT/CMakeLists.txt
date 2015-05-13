@@ -5,12 +5,12 @@ project(ResampleCT )
 set(MODULE_NAME ResampleCT)
 set(MODULE_SRCS )
 
-find_package(SlicerExecutionModel REQUIRED)
-include(${SlicerExecutionModel_USE_FILE})
+#find_package(SlicerExecutionModel REQUIRED)
+#include(${SlicerExecutionModel_USE_FILE})
 
- FIND_PACKAGE( ITK REQUIRED )
+#FIND_PACKAGE( ITK REQUIRED )
 
- FIND_PACKAGE( CIP REQUIRED )
+#FIND_PACKAGE( CIP REQUIRED )
 
 set(MODULE_INCLUDE_DIRECTORIES
   ${CIP_INCLUDE_DIRECTORIES}

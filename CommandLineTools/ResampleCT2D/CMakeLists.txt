@@ -5,8 +5,8 @@ project(ResampleCT2D )
 set(MODULE_NAME ResampleCT2D)
 set(MODULE_SRCS )
 
-find_package(SlicerExecutionModel REQUIRED)
-include(${SlicerExecutionModel_USE_FILE})
+#find_package(SlicerExecutionModel REQUIRED)
+#include(${SlicerExecutionModel_USE_FILE})
 
  FIND_PACKAGE( ITK REQUIRED )
 
